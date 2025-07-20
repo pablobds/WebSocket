@@ -31,3 +31,7 @@ None
 # Servidor (Python3.13)
 - fastapi
 - uvicorn
+
+
+# Criptografia
+None
