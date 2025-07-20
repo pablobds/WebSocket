@@ -31,5 +31,11 @@ public class WSClient extends WebSocketClient {
     public void onError(Exception ex) {
         System.out.println("Erro: " + ex.getMessage());
     }
-    
+
+
+    public void sendMessage(String texto) {
+        if (isOpen()) {
+            send(texto);
+        }
+    }
 }
